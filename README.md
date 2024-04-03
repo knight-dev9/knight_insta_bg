@@ -1,16 +1,3 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
 A simple widget to replicate the cool instagram gradient transition effect.
 
 ## Usage
@@ -29,6 +16,21 @@ InstaBG(primaryColors: const [
   Color(0xFFF15F79), 
   Color(0xFFF15F79)
 ], child: YourWidget());
-
-
 ```
+
+## Available properties
+
+| Property            | Type                 | Description                                                                                                      |
+| ------------------- | -------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `primaryColors`     | List                 | Starting colors of the animation.                                                                                |
+| `secondaryColors`   | List                 | Ending colors of the animation.                                                                                  |
+| `primaryBegin`      | AlignmentGeometry?   | Starting alignment of primaryColrs.                                                                              |
+| `primaryEnd`        | AlignmentGeometry?   | Ending alignment of primaryColrs.                                                                                |
+| `secondaryEnd`      | AlignmentGeometry?   | Starting alignment of secondaryColors.                                                                           |
+| `secondaryEnd`      | AlignmentGeometry?   | Ending alignment of secondaryColors.                                                                             |
+| `duration`          | Duration?            | Duration between the transition.                                                                                 |
+| `child`             | Widget?              | You can pass your own widget.                                                                                    |
+
+## Author
+
+This plugin is developed by Atirek Pothiwala.
