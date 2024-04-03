@@ -11,29 +11,24 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+A simple widget to replicate the cool instagram gradient transition effect.
 
 ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Two required arguments are the primaryColors and secondaryColors.
+Number of color objects in primaryColors and secondaryColors must contain more than 2 objects.
+Number of color objects in primaryColors and secondaryColors must be more than 2.
 
 ```dart
-const like = 'sample';
+
+import 'package:insta_bg/insta_bg.dart';
+
+InstaBG(primaryColors: const [
+  Color(0xFFFD746C), 
+  Color(0xFFFF9068)
+], secondaryColors: const [
+  Color(0xFFF15F79), 
+  Color(0xFFF15F79)
+], child: YourWidget());
+
+
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
