@@ -13,7 +13,7 @@ InstaBG(primaryColors: const [
   Color(0xFFFD746C), 
   Color(0xFFFF9068)
 ], secondaryColors: const [
-  Color(0xFFF15F79), 
+  Color(0xFFFF0735), 
   Color(0xFFF15F79)
 ], child: YourWidget());
 ```
