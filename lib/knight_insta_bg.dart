@@ -1,4 +1,4 @@
-library insta_bg;
+library knight_insta_bg;
 
 import 'package:flutter/material.dart';
 
