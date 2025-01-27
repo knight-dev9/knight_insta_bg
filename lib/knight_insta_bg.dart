@@ -2,8 +2,8 @@ library knight_insta_bg;
 
 import 'package:flutter/material.dart';
 
-class InstaBG extends StatefulWidget {
-  const InstaBG(
+class KnightInstaBG extends StatefulWidget {
+  const KnightInstaBG(
       {Key? key,
       required this.primaryColors,
       required this.secondaryColors,
@@ -46,10 +46,10 @@ class InstaBG extends StatefulWidget {
   final Widget? child;
 
   @override
-  State<InstaBG> createState() => _InstaBGState();
+  State<KnightInstaBG> createState() => _KnightInstaBGState();
 }
 
-class _InstaBGState extends State<InstaBG> with TickerProviderStateMixin {
+class _KnightInstaBGState extends State<KnightInstaBG> with TickerProviderStateMixin {
   late Animation<double> _animation;
   late AnimationController _controller;
 
