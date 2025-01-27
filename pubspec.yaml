@@ -1,7 +1,7 @@
 name: knight_insta_bg
 description: "A simple widget to replicate the cool instagram gradient transition effect."
-version: 0.0.1
-repository: https://github.com/knight-dev9/InstaBG
+version: 0.0.2
+repository: https://github.com/knight-dev9/knight_insta_bg
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
