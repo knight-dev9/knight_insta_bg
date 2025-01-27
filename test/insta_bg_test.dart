@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:knight_insta_bg/knight_insta_bg.dart';
+import 'package:knight_insta_bg/insta_bg.dart';
 
 void main() {
   test('Testing Internally', () {

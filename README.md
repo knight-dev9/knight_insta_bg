@@ -7,7 +7,7 @@ Number of color objects in primaryColors and secondaryColors must be more than 2
 
 ```dart
 
-import 'package:knight_insta_bg/knight_insta_bg.dart';
+import 'package:knight_insta_bg/insta_bg.dart';
 
 InstaBG(primaryColors: const [
   Color(0xFFFD746C), 
