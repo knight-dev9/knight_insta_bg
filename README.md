@@ -1,5 +1,8 @@
 A simple widget to replicate the cool instagram gradient transition effect.
 
+### Video Demo as GIF
+![Video Demo](assets/demo.gif)
+
 ## Usage
 Two required arguments are the primaryColors and secondaryColors.
 Number of color objects in primaryColors and secondaryColors must contain more than 2 objects.
