@@ -1,6 +1,6 @@
 A simple widget to replicate the cool instagram gradient transition effect.
 
-### Video Demo as GIF
+## Preview Demo
 ![Video Demo](assets/demo.gif)
 
 ## Usage
